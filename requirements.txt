@@ -1,8 +1,7 @@
 streamlit
 opencv-python
 torch
-torchvision
 transformers
-Pillow
 ultralytics
+pillow
 pandas
