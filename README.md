@@ -1,10 +1,10 @@
 # Out of Label-Hazards in Autonomous Driving
 
-![fig4](https://github.com/user-attachments/assets/efddd282-a838-4d4a-8fb5-42228663b270)
-
 This project processes videos to identify hazards and detect changes in driver state using object detection, image captioning, and LSTM-based analysis. The code implements a pipeline that integrates YOLO, BLIP, and additional techniques to process videos and output results in a structured format.
 
 # Hazard Detection and Driver State Analysis in Autonomous Driving
+
+![fig4](https://github.com/user-attachments/assets/efddd282-a838-4d4a-8fb5-42228663b270)
 
 ## **Features**
 1. **Object Detection**: Detect objects in video frames using a pre-trained YOLO model.
