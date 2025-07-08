@@ -1,6 +1,7 @@
-# Out of Label-Hazards in Autonomous-Driving
+# Out of Label-Hazards in Autonomous Driving
 
 # README: Hazard Detection and Driver State Analysis in Autonomous Driving
+![fig4](https://github.com/user-attachments/assets/efddd282-a838-4d4a-8fb5-42228663b270)
 
 This project processes videos to identify hazards and detect changes in driver state using object detection, image captioning, and LSTM-based analysis. The code implements a pipeline that integrates YOLO, BLIP, and additional techniques to process videos and output results in a structured format.
 
@@ -8,8 +9,8 @@ This project processes videos to identify hazards and detect changes in driver s
 ## **Features**
 1. **Object Detection**: Detect objects in video frames using a pre-trained YOLO model.
 2. **Hazard Identification**: Identify the most probable hazard and generate captions for it using the BLIP model.
-3. **Driver State Analysis**: Analyze driver behavior using LSTM and frame-based distance metrics to detect changes in driver state.
-4. **Parallel Processing**: Utilize multi-threading for efficient processing of multiple videos simultaneously.
+3. **Driver State Analysis**: Analyse driver behavior using LSTM and frame-based distance metrics to detect changes in driver state.
+4. **Parallel Processing**: Utilise multi-threading for efficient processing of multiple videos simultaneously.
 5. **Results Logging**: Outputs structured results to a CSV file for further analysis.
 
 
@@ -46,6 +47,7 @@ The following libraries and tools are required to run the code:
    - Analyze frame-by-frame centroid distances.
    - Use a rolling window of 5 frames to generate input sequences for an LSTM model.
    - Predict slowing or anomalous driver behavior using an LSTM threshold.
+<img width="866" alt="fig1" src="https://github.com/user-attachments/assets/32eb2c3e-186c-4f2c-bd6e-9b567b86c313" />
 
 4. **Results**:
    - Log the following in `results.csv`:
